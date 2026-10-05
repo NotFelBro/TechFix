@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Página-1" id="6APzghGHSKxVbGMW8ays">
-    <mxGraphModel dx="1185" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1464" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -709,7 +709,7 @@
             <mxRectangle height="30" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHQnFV1RSGYpxbiSEi9o-28" parent="HHQnFV1RSGYpxbiSEi9o-26" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="descricao_destino TEXT NOT NULL" vertex="1">
+        <mxCell id="HHQnFV1RSGYpxbiSEi9o-28" parent="HHQnFV1RSGYpxbiSEi9o-26" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="descricao_defeito TEXT NOT NULL" vertex="1">
           <mxGeometry height="30" width="439" x="30" as="geometry">
             <mxRectangle height="30" width="439" as="alternateBounds" />
           </mxGeometry>
@@ -722,7 +722,7 @@
             <mxRectangle height="30" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHQnFV1RSGYpxbiSEi9o-34" parent="HHQnFV1RSGYpxbiSEi9o-32" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="debito_constatado TEXT" vertex="1">
+        <mxCell id="HHQnFV1RSGYpxbiSEi9o-34" parent="HHQnFV1RSGYpxbiSEi9o-32" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="defeito_constatado TEXT" vertex="1">
           <mxGeometry height="30" width="439" x="30" as="geometry">
             <mxRectangle height="30" width="439" as="alternateBounds" />
           </mxGeometry>
@@ -761,7 +761,7 @@
             <mxRectangle height="30" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HHQnFV1RSGYpxbiSEi9o-43" parent="HHQnFV1RSGYpxbiSEi9o-41" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="id_tecnico_cargol INTEGER NOT NULL &amp;lt;CHECK (id_tecnico_cargo = 3)" vertex="1">
+        <mxCell id="HHQnFV1RSGYpxbiSEi9o-43" parent="HHQnFV1RSGYpxbiSEi9o-41" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" value="id_tecnico_cargo INTEGER NOT NULL CHECK (id_tecnico_cargo = 3)" vertex="1">
           <mxGeometry height="30" width="439" x="30" as="geometry">
             <mxRectangle height="30" width="439" as="alternateBounds" />
           </mxGeometry>
